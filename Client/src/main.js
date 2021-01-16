@@ -6,11 +6,16 @@ import App from './App'
 import router from './router'
 import ViewUI from 'view-design';
 import 'view-design/dist/styles/iview.css';
+// import axios from 'axios'
 
 
 Vue.use(ViewUI);
 
 Vue.config.productionTip = false;
+
+// Vue.prototype.$axios = axios;
+// axios.defaults.baseURL = 'http://localhost:3000/';
+
 new Vue({
   el: '#app',
   router,

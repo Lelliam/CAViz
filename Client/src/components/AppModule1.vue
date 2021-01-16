@@ -8,9 +8,13 @@
 </template>
 <script>
 
+  import DataManager from "../data-manager/data-manager";
     export default {
         name: "AppModule1",
         mounted(){
+            console.log(DataManager.get_test().then(res=>{
+                console.log(res.data);
+            }));
         },
         methods:{
         },
