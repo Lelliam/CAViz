@@ -19,21 +19,58 @@ import AppLayout from './components/AppLayout';
 <style>
   html,body{
     font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    -moz-user-select:none;/*火狐*/
-    -webkit-user-select:none;/*webkit浏览器*/
-    -ms-user-select:none;/*IE10*/
-    -khtml-user-select:none;/*早期浏览器*/
-    user-select:none;
+    /*-moz-user-select:none;!*火狐*!*/
+    /*-webkit-user-select:none;!*webkit浏览器*!*/
+    /*-ms-user-select:none;!*IE10*!*/
+    /*-khtml-user-select:none;!*早期浏览器*!*/
+    /*user-select:none;*/
   }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f6f6f6;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #747474;
+  }
+  ::-webkit-scrollbar-corner {
+    background: #f6f6f6;
+  }
+
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
+    /*text-align: center;*/
     color: #2c3e50;
     /*margin-top: 60px;*/
   }
+
+  .ivu-card{
+    background: rgba(255,255,255,0.8);
+    filter: blur(10);
+  }
+
+  .ivu-card-body {
+    padding: 0;
+  }
+
+  .ivu-cell-main {
+     display: block;
+    vertical-align: middle;
+  }
+
   .ivu-drawer-content{
     height: 94%;
     width: 250px;

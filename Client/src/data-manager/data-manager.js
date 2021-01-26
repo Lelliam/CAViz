@@ -6,4 +6,8 @@ export default class DataManager {
   static get_test() {
     return axios.get('test');
   }
+
+  static get_kg() {
+    return axios.get('kg_update');
+  }
 }
