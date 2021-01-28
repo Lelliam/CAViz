@@ -97,9 +97,8 @@
 </script>
 
 <style scoped>
-  .layout{
-    background: #f5f7f9;
-    position: relative;
+  #layout{
+    background: #2c3e50;
     overflow: hidden;
   }
 

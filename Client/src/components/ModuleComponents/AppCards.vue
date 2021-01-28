@@ -1,6 +1,6 @@
 <template>
     <div id="module3-cards">
-      <Card :style="{minHeight: '92vh',minWidth: '300px'}">
+      <Card :style="{minHeight: '92vh'}">
         <p slot="title">The standard card</p>
         <CellGroup>
           <Cell  v-for=" (i,j) in test" :key="'key'+j">
@@ -74,7 +74,7 @@
 
 .cards{
   /*position: relative;*/
-  width: 100%;
+  /*width: 100%;*/
   margin-bottom: 5px;
 }
 

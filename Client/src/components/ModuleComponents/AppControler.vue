@@ -1,8 +1,14 @@
 <template>
   <div id="kg_control">
-    <Card :style="{minHeight: '92vh',minWidth: '300px'}">
-      <p slot="title">The standard card</p>
-      <Divider orientation="left">关系选择</Divider>
+    <Card :style="{minHeight: '100%',minWidth: '100%'}">
+      <p slot="title">图谱过滤</p>
+      <Divider orientation="left">连续型-度量</Divider>
+      <CellGroup>
+        <Cell>
+          <Slider v-model="value" show-input></Slider>
+        </Cell>
+      </CellGroup>
+      <Divider orientation="left">离散型-维度</Divider>
       <CellGroup>
         <CheckboxGroup v-model="kg_relation" @on-change="test">
           <Cell>
@@ -10,6 +16,11 @@
               <Icon type="md-ionic" />
               <span>性别</span>
             </Checkbox>
+            <label>
+              <Select v-model="model16" multiple :max-tag-count="2" style="width:200px">
+                <Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
+              </Select>
+            </label>
           </Cell>
           <Cell>
             <Checkbox label="nation">
@@ -18,21 +29,9 @@
             </Checkbox>
           </Cell>
           <Cell>
-            <Checkbox label="age">
-              <Icon type="ios-people-outline" />
-              <span>年龄</span>
-            </Checkbox>
-          </Cell>
-          <Cell>
             <Checkbox label="politics_status">
               <Icon type="ios-people-outline" />
               <span>政治面貌</span>
-            </Checkbox>
-          </Cell>
-          <Cell>
-            <Checkbox label="credit">
-              <Icon type="ios-people-outline" />
-              <span>绩点</span>
             </Checkbox>
           </Cell>
           <Cell>
@@ -85,26 +84,6 @@
           </Cell>
         </CheckboxGroup>
       </CellGroup>
-      <Divider orientation="left">信息查询</Divider>
-      <CellGroup>
-        <Cell>
-          <Input search placeholder="Enter something..." />
-        </Cell>
-      </CellGroup>
-      <!--      <cell-group>-->
-      <!--        <Cell>-->
-      <!--          <Form>-->
-      <!--            <FormItem label="">-->
-      <!--              <Input  type="textarea" :autosize="{minRows: 2,maxRows: 5}" placeholder="Enter something..."></Input>-->
-      <!--            </FormItem>-->
-      <!--            <FormItem>-->
-      <!--              <Button type="primary">Submit</Button>-->
-      <!--              <Button style="margin-left: 8px">Cancel</Button>-->
-      <!--            </FormItem>-->
-      <!--          </Form>-->
-      <!--        </Cell>-->
-      <!--      </cell-group>-->
-
     </Card>
   </div>
 </template>
@@ -129,14 +108,28 @@
                     'artistic_accomplishment':'艺术修养',
                     'social_practice':'社会实践',
                     'credit':'GPA'
-                }
-
+                },
+                value:[20,50],
+                cityList: [
+                    {
+                        value: 'New York',
+                        label: 'New York'
+                    },
+                    {
+                        value: 'London',
+                        label: 'London'
+                    }
+                ],
+                model16: []
             }
         },
         mounted(){
 
         },
         methods:{
+            maxTagPlaceholder (num) {
+                return 'more '+ num;
+            },
             test(x){
                 this.$store.commit('relations',x.map(d=>{
                     return {
@@ -152,8 +145,9 @@
 <style scoped>
   #kg_control{
     position: absolute;
-    width: 15%;
-    height: 100%;
+    width: 17%;
+    height: 80%;
+    top: 20%;
     /*color: #646464;*/
     /*background-color: #fff;*/
     z-index: 1;
