@@ -61,6 +61,31 @@ import AppLayout from './components/AppLayout';
     font-size: 14px;
   }
 
+
+  .ivu-slider-bar {
+    background: rgba(163, 58, 40, 0.7);
+  }
+  .ivu-slider-button:hover, .ivu-slider-button{
+    /*border: rgba(163, 58, 40, 0.7);*/
+    border-color: rgba(163, 58, 40, 0.7);
+  }
+
+  .ivu-slider-marks-item {
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #808695;
+    margin-top: -5px;
+  }
+
+  .ivu-slider-marks-item:nth-child(1){
+    margin-left: -10px;
+  }
+
+  .ivu-slider-marks-item:nth-child(2){
+    margin-left: 10px;
+  }
+
   .ivu-select {
     float: right;
   }

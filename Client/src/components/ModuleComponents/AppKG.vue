@@ -103,12 +103,11 @@
                             selector: 'node',
                             style: {
                                 'background-color': (d)=>{
-                                    return d.data('type') === 'card_id'?'#4865dd':'green'
+                                    return d.data('type') === 'card_id'?'rgb(107,148,192)':'green'
                                 },
                                 'label': 'data(name)'
                             }
                         },
-
                         {
                             selector: 'edge',
                             style: {
@@ -118,6 +117,31 @@
                                 'target-arrow-shape': 'triangle',
                                 'curve-style': 'bezier'
                             }
+                        },
+                        {
+                            selector: 'node.highlight',
+                            style: {
+                                'border-color': '#707070',
+                                'border-width': '2px',
+                                // 'background-color':(d,i)=>{
+                                //     if(i === 0)
+                                //         return '#ddd'
+                                //     else
+                                //       return '#a33a28'
+                                // }
+                            }
+                        },
+                        {
+                            selector: 'node.semitransp',
+                            style:{ 'opacity': '0.3' }
+                        },
+                        {
+                            selector: 'edge.highlight',
+                            style: { 'mid-target-arrow-color': '#FFF' }
+                        },
+                        {
+                            selector: 'edge.semitransp',
+                            style:{ 'opacity': '0.2' }
                         }
                     ],
 
@@ -150,6 +174,36 @@
                     }
 
                     // console.log(this.cards_data);
+                });
+
+                cy.on('tap', 'node', function(e) {
+                    var node = e.cyTarget;
+                    var directlyConnected = node.neighborhood();
+                    directlyConnected.nodes().addClass('connectednodes');
+
+                });
+
+                cy.on('mouseover', 'node', function(e) {
+                    var sel = e.target;
+                    cy.elements()
+                        .difference(sel.outgoers()
+                            .union(sel.incomers()))
+                        .not(sel)
+                        .addClass('semitransp');
+                    sel.addClass('highlight')
+                        .outgoers()
+                        .union(sel.incomers())
+                        .addClass('highlight');
+                });
+
+                cy.on('mouseout', 'node', function(e) {
+                    var sel = e.target;
+                    cy.elements()
+                        .removeClass('semitransp');
+                    sel.removeClass('highlight')
+                        .outgoers()
+                        .union(sel.incomers())
+                        .removeClass('highlight');
                 });
             },
             kg_d3(data){

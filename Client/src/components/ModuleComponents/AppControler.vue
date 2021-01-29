@@ -5,7 +5,14 @@
       <Divider orientation="left">连续型-度量</Divider>
       <CellGroup>
         <Cell>
-          <Slider v-model="value" show-input></Slider>
+          <Icon type="ios-people-outline" />
+          <span>测试指标1</span>
+          <Slider style="width: 65%; float: right;margin-right:5px;margin-top: -5px" v-model="value" range :marks="marks"></Slider>
+        </Cell>
+        <Cell>
+          <Icon type="ios-people-outline" />
+          <span>测试指标2</span>
+          <Slider style="width: 65%; float: right;margin-right:5px;margin-top: -5px" v-model="value" range :marks="marks"></Slider>
         </Cell>
       </CellGroup>
       <Divider orientation="left">离散型-维度</Divider>
@@ -14,7 +21,7 @@
           <Cell>
             <Checkbox label="gender">
               <Icon type="md-ionic" />
-              <span>性别</span>
+              <span>学生性别</span>
             </Checkbox>
             <label>
               <Select v-model="model16" multiple :max-tag-count="2" style="width:200px">
@@ -25,7 +32,7 @@
           <Cell>
             <Checkbox label="nation">
               <Icon type="ios-people-outline" />
-              <span>民族</span>
+              <span>学生民族</span>
             </Checkbox>
           </Cell>
           <Cell>
@@ -37,13 +44,13 @@
           <Cell>
             <Checkbox label="duty">
               <Icon type="ios-people-outline" />
-              <span>任职</span>
+              <span>任职情况</span>
             </Checkbox>
           </Cell>
           <Cell>
             <Checkbox label="reward">
               <Icon type="ios-people-outline" />
-              <span>荣誉</span>
+              <span>荣誉情况</span>
             </Checkbox>
           </Cell>
           <Cell>
@@ -61,7 +68,7 @@
           <Cell>
             <Checkbox label="innovation">
               <Icon type="ios-people-outline" />
-              <span>研究与创新</span>
+              <span>研究创新</span>
             </Checkbox>
           </Cell>
           <Cell>
@@ -120,7 +127,11 @@
                         label: 'London'
                     }
                 ],
-                model16: []
+                model16: [],
+                marks:{
+                    0:'0',
+                    100:'1'
+                }
             }
         },
         mounted(){
