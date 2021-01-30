@@ -7,6 +7,8 @@
     import ForceGraph3D from "3d-force-graph";
     import cytoscape from 'cytoscape'
     import * as dd from 'd3'
+    import img_1 from '../../assets/男生.png'
+    import img_0 from '../../assets/女生.png'
     export default {
         name: "AppKG",
         data(){
@@ -92,6 +94,110 @@
                 }
             },
             kg_cy(data){
+
+                let gender = {
+                    S1: "男",
+                    S2: "女",
+                    S3: "女",
+                    S4: "男",
+                    S5: "女",
+                    S6: "男",
+                    S7: "男",
+                    S8: "男",
+                    S9: "女",
+                    S10: "女",
+                    S11: "男",
+                    S12: "女",
+                    S13: "女",
+                    S14: "女",
+                    S15: "男",
+                    S16: "女",
+                    S17: "男",
+                    S18: "男",
+                    S19: "女",
+                    S20: "女",
+                    S21: "男",
+                    S22: "男",
+                    S23: "男",
+                    S24: "男",
+                    S25: "男",
+                    S26: "女",
+                    S27: "女",
+                    S28: "女",
+                    S29: "男",
+                    S30: "女",
+                    S31: "男",
+                    S32: "女",
+                    S33: "男",
+                    S34: "男",
+                    S35: "男",
+                    S36: "男",
+                    S37: "女",
+                    S38: "女",
+                    S39: "女",
+                    S40: "女",
+                    S41: "男",
+                    S42: "男",
+                    S43: "女",
+                    S44: "女",
+                    S45: "男",
+                    S46: "女",
+                    S47: "女",
+                    S48: "男",
+                    S49: "女",
+                    S50: "女",
+                    S51: "男",
+                    S52: "男",
+                    S53: "男",
+                    S54: "男",
+                    S55: "女",
+                    S56: "男",
+                    S57: "男",
+                    S58: "女",
+                    S59: "男",
+                    S60: "女",
+                    S61: "男",
+                    S62: "女",
+                    S63: "女",
+                    S64: "女",
+                    S65: "男",
+                    S66: "女",
+                    S67: "男",
+                    S68: "女",
+                    S69: "男",
+                    S70: "男",
+                    S71: "女",
+                    S72: "女",
+                    S73: "男",
+                    S74: "男",
+                    S75: "女",
+                    S76: "女",
+                    S77: "男",
+                    S78: "男",
+                    S79: "女",
+                    S80: "男",
+                    S81: "女",
+                    S82: "女",
+                    S83: "女",
+                    S84: "女",
+                    S85: "女",
+                    S86: "男",
+                    S87: "女",
+                    S88: "女",
+                    S89: "女",
+                    S90: "男",
+                    S91: "女",
+                    S92: "女",
+                    S93: "男",
+                    S94: "男",
+                    S95: "男",
+                    S96: "女",
+                    S97: "女",
+                    S98: "女",
+                    S99: "女",
+                    S100: "女"
+                }
+
                 let cy  = window.cy = cytoscape({
                     container: document.getElementById('kg_main'),
                     elements: data,
@@ -101,7 +207,13 @@
                             selector: 'node',
                             style: {
                                 'background-color': (d)=>{
-                                    return d.data('type') === 'card_id'?'rgb(107,148,192)':'green'
+                                    return d.data('type') === 'card_id'?'rgba(255,255,255)':'green'
+                                },
+                                'background-fit': 'cover',
+                                'background-image': (d)=>{
+                                    if(d.data('type') === 'card_id'){
+                                        return gender[d.data('name')] === '男'?img_1:img_0
+                                    }
                                 },
                                 'label': 'data(name)'
                             }

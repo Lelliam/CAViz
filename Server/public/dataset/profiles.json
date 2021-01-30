@@ -1,0 +1,6606 @@
+[
+    {
+        "S1": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.02
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 10
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S2": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.6
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 11
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S3": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.88
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 3
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S4": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.57
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "组长",
+                    "课代表",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 16
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S5": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.1
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "组长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S6": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.58
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 9
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐",
+                    "戏剧"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S7": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.31
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 3
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S8": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.14
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "足球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S9": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.11
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "学生会"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 18
+            },
+            {
+                "relation": "思想品德",
+                "target": 7
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳绳"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S10": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.54
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 7
+            },
+            {
+                "relation": "校本研修",
+                "target": 10
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S11": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.13
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "组长",
+                    "班长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 4
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S12": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.58
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S13": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.62
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 7
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S14": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.01
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "足球",
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S15": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.9
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "足球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "其他"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S16": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.34
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S17": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.72
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "组长",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 11
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 2
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "其他"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S18": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.42
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 4
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "足球",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S19": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.37
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S20": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.37
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 12
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 2
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S21": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "回族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.36
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 12
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 8
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "足球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S22": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 4
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S23": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.12
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 11
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "足球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S24": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.36
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "组长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 11
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S25": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.62
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "排球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "书法"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S26": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.86
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S27": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.4
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "排球",
+                    "跳绳"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S28": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.18
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "学生会"
+
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "篮球",
+                    "短跑"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "舞蹈",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S29": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.36
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S30": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.2
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S31": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.78
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 11
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S32": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.48
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 0
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "S33": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.35
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "组长",
+                    "学生会",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 8
+            },
+            {
+                "relation": "思想品德",
+                "target": 9
+            },
+            {
+                "relation": "校本研修",
+                "target": 10
+            },
+            {
+                "relation": "研究与创新",
+                "target": 8
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐",
+                    "其他",
+                    "戏剧"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S34": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.49
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 11
+            },
+            {
+                "relation": "研究与创新",
+                "target": 8
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "书法",
+                    "戏曲",
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S35": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "回族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.11
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 7
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "足球",
+                    "羽毛球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S36": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.5
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 11
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S37": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "回族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.18
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "学生会",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 4
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐",
+                    "影视"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S38": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.88
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "组长",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 3
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 11
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "排球",
+                    "羽毛球",
+                    "短跑"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "书法",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S39": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.01
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 3
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "排球",
+                    "乒乓球",
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S40": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.18
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 15
+            },
+            {
+                "relation": "校本研修",
+                "target": 12
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳绳",
+                    "足球",
+                    "乒乓球",
+                    "篮球",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "书法",
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 5
+            }
+        ]
+    },
+    {
+        "S41": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.73
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "长跑"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "书法",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 5
+            }
+        ]
+    },
+    {
+        "S42": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.58
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S43": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "回族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.1
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S44": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.12
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 7
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "排球",
+                    "羽毛球",
+                    "乒乓球",
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S45": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.49
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳高",
+                    "跳远",
+                    "足球",
+                    "跑步",
+                    "篮球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S46": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.99
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 4
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S47": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.98
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S48": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.54
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "组长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 3
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "书法",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S49": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.34
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "组长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 5
+            }
+        ]
+    },
+    {
+        "S50": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.68
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳绳",
+                    "跳远",
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S51": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.5
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 4
+            },
+            {
+                "relation": "研究与创新",
+                "target": 0
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S52": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "回族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.88
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "足球",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S53": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.9
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 4
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "乒乓球",
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S54": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.49
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 7
+            },
+            {
+                "relation": "校本研修",
+                "target": 10
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "足球",
+                    "羽毛球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S55": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.91
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "学生会",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳高",
+                    "跑步",
+                    "跳远",
+                    "足球",
+                    "篮球",
+                    "排球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "舞蹈"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S56": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.95
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "学生会"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "足球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "书法",
+                    "音乐",
+                    "影视"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S57": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.83
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S58": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.61
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 4
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S59": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.64
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 8
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S60": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.51
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 11
+            },
+            {
+                "relation": "研究与创新",
+                "target": 0
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "排球",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "S61": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.79
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "组长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 5
+            }
+        ]
+    },
+    {
+        "S62": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.05
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S63": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.88
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳绳",
+                    "跳远",
+                    "乒乓球",
+                    "排球",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S64": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.81
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S65": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.92
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "书法",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S66": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.2
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "组长",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 8
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳绳",
+                    "羽毛球",
+                    "长跑"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "舞蹈",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S67": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.77
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "长跑"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S68": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 20
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 0
+            },
+            {
+                "relation": "研究与创新",
+                "target": 0
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "S69": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.07
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐",
+                    "影视"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S70": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.39
+            },
+            {
+                "relation": "任职",
+                "target": [
+                   "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 14
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 7
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳高",
+                    "乒乓球",
+                    "跑步",
+                    "篮球",
+                    "排球",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐",
+                    "舞蹈",
+                    "影视"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S71": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.02
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S72": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.62
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "排球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S73": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.25
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "篮球",
+                    "羽毛球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S74": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.01
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "羽毛球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S75": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 15
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.76
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S76": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.7
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 1
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S77": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.31
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "班长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 5
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "舞蹈",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S78": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.43
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 11
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S79": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "回族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "学生会"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 3
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 8
+            },
+            {
+                "relation": "研究与创新",
+                "target": 1
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "其他",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S80": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.89
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "组长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S81": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.53
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 16
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 10
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S82": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.74
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 8
+            },
+            {
+                "relation": "思想品德",
+                "target": 13
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "短跑"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "书法",
+                    "影视"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 5
+            }
+        ]
+    },
+    {
+        "S83": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.61
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "学生会",
+                    "班委",
+                    "组长",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 2
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "长跑"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐",
+                    "影视"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S84": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.19
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 9
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳绳",
+                    "跑步",
+                    "乒乓球",
+                    "篮球",
+                    "排球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S85": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.21
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S86": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.19
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "学生会",
+                    "班长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐",
+                    "戏剧"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 2
+            }
+        ]
+    },
+    {
+        "S87": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.26
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 23
+            },
+            {
+                "relation": "思想品德",
+                "target": 14
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "跑步"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S88": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.29
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S89": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.66
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "文艺委员"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 3
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 1
+            }
+        ]
+    },
+    {
+        "S90": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.13
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "羽毛球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "戏剧"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S91": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.84
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "宿舍长",
+                    "化学课代表",
+                    "学习委员"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 7
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "羽毛球",
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐",
+                    "戏剧"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S92": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.33
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "化学课代表",
+                    "英语课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 0
+            },
+            {
+                "relation": "思想品德",
+                "target": 5
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 6
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S93": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.26
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 11
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S94": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 20
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.02
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "足球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S95": [
+            {
+                "relation": "性别",
+                "target": "男"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 3.86
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 1
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "舞蹈",
+                    "书法",
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S96": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.1
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "组长"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 4
+            },
+            {
+                "relation": "思想品德",
+                "target": 12
+            },
+            {
+                "relation": "校本研修",
+                "target": 5
+            },
+            {
+                "relation": "研究与创新",
+                "target": 3
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "乒乓球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S97": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "群众"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.51
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 5
+            },
+            {
+                "relation": "思想品德",
+                "target": 4
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 4
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳绳",
+                    "跳远",
+                    "乒乓球",
+                    "排球",
+                    "羽毛球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "舞蹈",
+                    "音乐",
+                    "美术"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S98": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 17
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.27
+            },
+            {
+                "relation": "任职",
+                "target": []
+            },
+            {
+                "relation": "荣誉",
+                "target": 2
+            },
+            {
+                "relation": "思想品德",
+                "target": 0
+            },
+            {
+                "relation": "校本研修",
+                "target": 7
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "跳高",
+                    "跳绳",
+                    "长跑"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "舞蹈"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "S99": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.66
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "课代表",
+                    "班委"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 6
+            },
+            {
+                "relation": "思想品德",
+                "target": 6
+            },
+            {
+                "relation": "校本研修",
+                "target": 6
+            },
+            {
+                "relation": "研究与创新",
+                "target": 2
+            },
+            {
+                "relation": "体育特长",
+                "target": []
+            },
+            {
+                "relation": "艺术修养",
+                "target": [
+                    "美术",
+                    "音乐"
+                ]
+            },
+            {
+                "relation": "社会实践",
+                "target": 4
+            }
+        ]
+    },
+    {
+        "S100": [
+            {
+                "relation": "性别",
+                "target": "女"
+            },
+            {
+                "relation": "年龄",
+                "target": 18
+            },
+            {
+                "relation": "民族",
+                "target": "汉族"
+            },
+            {
+                "relation": "健康状态",
+                "target": "健康或良好"
+            },
+            {
+                "relation": "政治面貌",
+                "target": "中国共产主义青年团团员"
+            },
+            {
+                "relation": "GPA",
+                "target": 4.48
+            },
+            {
+                "relation": "任职",
+                "target": [
+                    "班委",
+                    "课代表"
+                ]
+            },
+            {
+                "relation": "荣誉",
+                "target": 3
+            },
+            {
+                "relation": "思想品德",
+                "target": 2
+            },
+            {
+                "relation": "校本研修",
+                "target": 9
+            },
+            {
+                "relation": "研究与创新",
+                "target": 5
+            },
+            {
+                "relation": "体育特长",
+                "target": [
+                    "跳远",
+                    "篮球"
+                ]
+            },
+            {
+                "relation": "艺术修养",
+                "target": []
+            },
+            {
+                "relation": "社会实践",
+                "target": 5
+            }
+        ]
+    }
+]

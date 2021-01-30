@@ -141,14 +141,14 @@
               :key="index"
               :prop="'items.' + index + '.value'">
               <Row>
-                <Col  span="9">
-                  <Select v-model="model1">
-                    <Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
+                <Col  span="8">
+                  <Select>
+                    <Option v-for="item in relation_list" :value="item" :key="item">{{ item }}</Option>
                   </Select>
                 </Col>
-                <Col span="12" offset="1">
-                  <Select v-model="model16" multiple :max-tag-count="1">
-                    <Option v-for="item in cityList" :value="item.value" :key="item.value">{{ item.label }}</Option>
+                <Col span="13" offset="1">
+                  <Select multiple :max-tag-count="1">
+                    <Option v-for="item in test1[index]" :value="item" :key="item">{{ item }}{{index}}</Option>
                   </Select>
                 </Col>
                 <Col span="1" offset="1">
@@ -173,10 +173,12 @@
 </template>
 
 <script>
+  import DataManager from "../../data-manager/data-manager";
     export default {
         name: "AppControler",
         data () {
             return {
+                select_data:[],
                 kg_relation: [],
                 relation_pairs:{
                     'gender':'性别',
@@ -190,25 +192,11 @@
                     'innovation':'研究与创新',
                     'sports_speciality':'体育特长',
                     'artistic_accomplishment':'艺术修养',
-                    'social_practice':'社会实践',
-                    'credit':'GPA'
+                    'social_practice':'社会实践'
                 },
                 value:[20,50],
-                model1: '',
-                cityList: [
-                    {
-                        value: 'New York',
-                        label: 'New York'
-                    },
-                    {
-                        value: 'London',
-                        label: 'London'
-                    },
-                    {
-                        value: 'Beijing',
-                        label: 'Beijing'
-                    }
-                ],
+                relation_list:['学生性别','学生民族','学生年龄','政治面貌','任职情况','荣誉情况','思想品德','校本研修','研究创新','体育特长','艺术修养','社会实践'],
+                test1:[],
                 model16: [],
                 model11: '',
                 model12: [],
@@ -229,7 +217,67 @@
             }
         },
         mounted(){
+            DataManager.get_kg().then(res=> {
+                let test= {
+                    '学生性别':[],
+                    '学生民族':[],
+                    '学生年龄':[],
+                    '政治面貌':[],
+                    '任职情况':[],
+                    '荣誉情况':[],
+                    '思想品德':[],
+                    '校本研修':[],
+                    '研究创新':[],
+                    '体育特长':[],
+                    '艺术修养':[],
+                    '社会实践':[],
+                }
+                res.data.links.forEach(d=>{
+                    if(d.relation === '性别' && !test['学生性别'].includes(d.target)){
+                        test['学生性别'].push(d.target)
+                    }
+                    else if(d.relation === '民族' && !test['学生民族'].includes(d.target)){
+                       test['学生民族'].push(d.target)
+                    }
+                    else if(d.relation === '年龄' && !test['学生年龄'].includes(d.target)){
+                        test['学生年龄'].push(d.target)
+                    }
+                    else if(d.relation === '政治面貌' && !test['政治面貌'].includes(d.target)){
+                        test['政治面貌'].push(d.target)
+                    }
+                    else if(d.relation === '任职' && !test['任职情况'].includes(d.target)){
+                        test['任职情况'].push(d.target)
+                    }
+                    else if(d.relation === '荣誉' && !test['荣誉情况'].includes(d.target)){
+                       test['荣誉情况'].push(d.target)
+                    }
+                    else if(d.relation === '思想品德' && !test['思想品德'].includes(d.target)){
+                       test['思想品德'].push(d.target)
+                    }
+                    else if(d.relation === '校本研修' && !test['校本研修'].includes(d.target)){
+                       test['校本研修'].push(d.target)
+                    }
+                    else if(d.relation === '研究与创新' && !test['研究创新'].includes(d.target)){
+                        test['研究创新'].push(d.target)
+                    }
+                    else if(d.relation === '体育特长' && !test['体育特长'].includes(d.target)){
+                        test['体育特长'].push(d.target)
+                    }
+                    else if(d.relation === '艺术修养' && !test['艺术修养'].includes(d.target)){
+                        test['艺术修养'].push(d.target)
+                    }
+                    else if(d.relation === '社会实践' && !test['社会实践'].includes(d.target)){
+                        test['社会实践'].push(d.target)
+                    }
+                })
 
+                Object.keys(test).forEach((key)=> {
+                    this.test1.push(test[key]);
+                });
+
+                console.log(this.test1);
+
+            })
         },
         methods:{
             maxTagPlaceholder (num) {
