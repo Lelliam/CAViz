@@ -92,8 +92,6 @@
                 }
             },
             kg_cy(data){
-
-                console.log(data);
                 let cy  = window.cy = cytoscape({
                     container: document.getElementById('kg_main'),
                     elements: data,

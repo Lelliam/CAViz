@@ -86,6 +86,10 @@ import AppLayout from './components/AppLayout';
     margin-left: 10px;
   }
 
+  .ivu-form-item {
+    margin-bottom: 10px;
+  }
+
   .ivu-select {
     float: right;
   }
