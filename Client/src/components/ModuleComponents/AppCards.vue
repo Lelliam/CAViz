@@ -1,19 +1,20 @@
 <template>
   <div id="module3-cards">
     <Card :style="{minHeight: '92vh'}">
-      <p slot="title">The standard card</p>
+      <p slot="title">人物画像</p>
       <CellGroup>
         <Cell :key="'key'+j" v-for=" (i,j) in test">
           <Card class="cards">
             <p slot="title">
-              <Icon type="ios-film-outline"></Icon>
-              Classic film
+              <Icon type="ios-people-outline" />
+              学生名片——{{i}}
             </p>
             <a @click.prevent="test_fun(j)" href="#" slot="extra">
-              <Icon type="ios-loop-strong"></Icon>
-              X
+              <Icon type="ios-close-circle-outline" size="20"/>
+<!--              X-->
             </a>
-            {{i}}
+<!--            {{all_data[i]}}-->
+            <br>
             <svg>
               <g id="图层_1">
                 <g id="图层_1_1_">
@@ -27,6 +28,7 @@
 			c0-6.7-5.5-12.1-12.2-12c-4.8,0-9.1,2.9-11,7.2l-2.9-4.6H29l3,6.2c-1.8,6.4,1.9,13.1,8.4,14.9s13.1-1.9,14.9-8.4
 			c0.2-0.7,0.3-1.4,0.4-2h11.6c0.7,6.6,6.6,11.5,13.3,10.8c6.2-0.6,10.8-5.8,10.8-12c0-0.3,0-0.6,0-0.9l0.2,0.2L95.2,49.6z"/>
                   <path class="st3"
+                        stroke-width="10px"
                         d="M43.7,67.9c-6.3,0-11.3-5.1-11.3-11.3c0-6.3,5.1-11.3,11.3-11.3C50,45.3,55,50.4,55,56.6S50,67.9,43.7,67.9z"
                   />
                   <path class="st3" d="M90.7,56.5c0,6.3-5.1,11.3-11.3,11.3c-6.3,0-11.3-5.1-11.3-11.3c0-6.3,5.1-11.3,11.3-11.3
@@ -488,12 +490,21 @@
 </template>
 
 <script>
+    import DataManager from "../../data-manager/data-manager";
     export default {
         name: "AppCards",
         data(){
             return {
-                test:[]
+                test:[],
+                all_data:{}
             }
+        },
+        mounted(){
+          DataManager.get_profiles().then(res=>{
+              res.data.forEach((d,i)=>{
+                  this.all_data['S'+(i+1)] = d['S'+(i+1)]
+              })
+          })
         },
         methods:{
             test_fun(index){
@@ -520,7 +531,7 @@
   #module3-cards {
     position: absolute;
     right: 0;
-    width: 20%;
+    width: 30%;
     height: 100%;
     overflow-y: scroll;
   }

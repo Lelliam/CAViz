@@ -286,12 +286,12 @@
                     // console.log(this.cards_data);
                 });
 
-                cy.on('tap', 'node', function(e) {
-                    var node = e.cyTarget;
-                    var directlyConnected = node.neighborhood();
-                    directlyConnected.nodes().addClass('connectednodes');
-
-                });
+                // cy.on('tap', 'node', function(e) {
+                //     var node = e.cyTarget;
+                //     var directlyConnected = node.neighborhood();
+                //     directlyConnected.nodes().addClass('connectednodes');
+                //
+                // });
 
                 cy.on('mouseover', 'node', function(e) {
                     var sel = e.target;
@@ -446,7 +446,7 @@
                         data.nodes = data.nodes.filter(d=>d.name !== "" )
                         data.nodes = data.nodes.filter(d=> d.type === 'card_id'|| condition.map(d=>d.name).includes(d.type))
                         data.links = data.links.filter(d=>condition.map(d=>d.relation).includes(d.relation))
-                        console.log(data);
+                        // console.log(data);
                         let mapping = {}
                         // this.Graph.graphData(data)
                         this.kg_cy(data.nodes.map((d, i) => {
