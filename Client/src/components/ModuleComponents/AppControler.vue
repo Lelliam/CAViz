@@ -1,7 +1,7 @@
 <template>
   <div id="kg_control">
     <Card :style="{minHeight: '100%',minWidth: '100%'}">
-      <p slot="title">图谱过滤</p>
+      <p slot="title"> <Tag color="warning"></Tag>图谱过滤</p>
       <Divider orientation="left">连续型-度量</Divider>
       <CellGroup>
         <Cell>
@@ -319,10 +319,11 @@
   #kg_control{
     position: absolute;
     width: 17%;
-    height: 80%;
-    top: 20%;
+    height: 60%;
+    top: 26.5%;
     /*color: #646464;*/
     /*background-color: #fff;*/
     z-index: 1;
+    left: 2%;
   }
 </style>

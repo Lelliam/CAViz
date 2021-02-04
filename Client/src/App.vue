@@ -21,6 +21,8 @@ import AppLayout from './components/AppLayout';
     font-family: "Helvetica Neue";
     margin: 0;
     padding: 0;
+    background-color: rgb(35,35,34);
+    color: #fff;
     /*overflow: hidden;*/
     /*-moz-user-select:none;!*火狐*!*/
     /*-webkit-user-select:none;!*webkit浏览器*!*/
@@ -95,8 +97,15 @@ import AppLayout from './components/AppLayout';
   }
 
   .ivu-card{
-    background: rgba(255,255,255,0.8);
+    background: rgba(60,60,60,0.2);
     filter: blur(10);
+  }
+
+  .ivu-card-bordered {
+    border: 0;
+  }
+  .ivu-card {
+    border-radius: 0;
   }
 
   .ivu-card-head {
@@ -104,12 +113,30 @@ import AppLayout from './components/AppLayout';
     padding: 10px 16px;
     line-height: 1;
   }
+
+  .ivu-card-head p, .ivu-card-head-inner {
+    color: #fff;
+  }
   .ivu-card-body {
     padding: 0;
   }
 
+  .ivu-divider-horizontal.ivu-divider-with-text-center, .ivu-divider-horizontal.ivu-divider-with-text-left, .ivu-divider-horizontal.ivu-divider-with-text-right {
+    color: #fff;
+  }
+
+  .ivu-tag {
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+  }
   .ivu-cell{
     overflow: visible;
+    color: #fff;
+  }
+
+  .ivu-cell:hover {
+    background: rgba(221, 120, 21, 0.3);
   }
 
   .ivu-cell-main {

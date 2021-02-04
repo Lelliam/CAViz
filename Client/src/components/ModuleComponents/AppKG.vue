@@ -1,12 +1,22 @@
 <template>
-  <div id="kg_main"></div>
+  <div id="kg_main">
+    <div id="kg-container"></div>
+    <div class="kg-toggle">
+      <RadioGroup type="button">
+        <Radio label="large"><icon type="ios-albums-outline"></icon>2D</Radio>
+        <Radio label="default"><icon type="ios-cube-outline"></icon>3D</Radio>
+      </RadioGroup>
+<!--        <Button label="large" icon="ios-albums-outline">2D</Button>-->
+<!--        <Button label="small" icon="ios-cube-outline">3D</Button>-->
+    </div>
+  </div>
 </template>
 
 <script>
     import DataManager from "../../data-manager/data-manager";
     import ForceGraph3D from "3d-force-graph";
     import cytoscape from 'cytoscape'
-    import * as dd from 'd3'
+    import * as d3 from 'd3'
     import img_1 from '../../assets/男生.png'
     import img_0 from '../../assets/女生.png'
     export default {
@@ -25,34 +35,34 @@
                 // data.links = data.links.filter(d=>(''+d.target).indexOf('三好学生') !== -1);
                 // data.nodes = data.nodes.filter(d=>(''+d.name).indexOf('三好学生') !== -1 || data.links.map(d=>d.source).includes(d.name));
 
-                data.nodes = data.nodes.filter(d => ['card_id'].includes(d.type)).sort((a,b)=>a.name - b.name);
-                data.links = data.links.filter(d => [].includes(d.relation))
+                // data.nodes = data.nodes.filter(d => ['card_id'].includes(d.type)).sort((a,b)=>a.name - b.name);
+                // data.links = data.links.filter(d => [].includes(d.relation))
                 // this.kg_d3(data);
                 // this.kg_init(data)
-                // this.kg_init(res.data)
-                let mapping = {};
-                // //
-                this.kg_cy(data.nodes.map((d, i) => {
-                        mapping[d.name] = i
-                        return {
-                            data: {id: i,name:d.name,type:d.type}
-                        }
-                    }).concat(data.links.map(d=>{
-                        return {
-                            data:{
-                                source:mapping[d.source],
-                                target:mapping[d.target]
-                            }
-                        }
-                    }))
-                );
+                this.kg_init(res.data)
+            //     let mapping = {};
+            //     // //
+            //     this.kg_cy(data.nodes.map((d, i) => {
+            //             mapping[d.name] = i
+            //             return {
+            //                 data: {id: i,name:d.name,type:d.type}
+            //             }
+            //         }).concat(data.links.map(d=>{
+            //             return {
+            //                 data:{
+            //                     source:mapping[d.source],
+            //                     target:mapping[d.target]
+            //                 }
+            //             }
+            //         }))
+            //     );
             })
         },
         methods:{
             kg_init(data){
                 this.Graph = ForceGraph3D()
-                (document.getElementById('kg_main'))
-                    .width(document.getElementById('kg_main').offsetWidth)
+                (document.getElementById('kg-container'))
+                    .width(document.getElementById('kg-container').offsetWidth)
                     .graphData(data)
                     .nodeId('name')
                     .nodeLabel('name')
@@ -199,7 +209,7 @@
                 }
 
                 let cy  = window.cy = cytoscape({
-                    container: document.getElementById('kg_main'),
+                    container: document.getElementById('kg-container'),
                     elements: data,
 
                     style: [ // the stylesheet for the graph
@@ -215,13 +225,14 @@
                                         return gender[d.data('name')] === '男'?img_1:img_0
                                     }
                                 },
-                                'label': 'data(name)'
+                                'label': 'data(name)',
+                                'color':'#fff'
                             }
                         },
                         {
                             selector: 'edge',
                             style: {
-                                'width': 1,
+                                'width': .4,
                                 'line-color': '#ccc',
                                 'target-arrow-color': '#ddd',
                                 'target-arrow-shape': 'triangle',
@@ -421,8 +432,8 @@
                         .attr("y2", d => d.target.y)
 
                     kg_chart.nodes
-                      .attr("cx", d => d.x)
-                      .attr("cy", d => d.y);
+                        .attr("cx", d => d.x)
+                        .attr("cy", d => d.y);
 
 
                 });
@@ -479,4 +490,17 @@
     /*background-color: #ddd;*/
   }
 
+  #kg_main #kg-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .kg-toggle{
+    position:absolute;
+    z-index: 999;
+    width: 200px;
+    height: 50px;
+    bottom: 5%;
+    left: 20%;
+  }
 </style>
