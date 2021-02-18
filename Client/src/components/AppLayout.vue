@@ -112,7 +112,7 @@
         mounted(){
             setInterval(()=>{
                 this.datetime = new Date().toDateString()
-                this.datetime_time = new Date().toTimeString().replace('(China Standard Time)','')
+                this.datetime_time = new Date().toTimeString().replace('(China Standard Time)','').replace('(中国标准时间)','')
             },1000)
             this.set_dateTime()
         },
@@ -148,8 +148,8 @@
                     // gradient.addColorStop(0, "#03303a");
                     // gradient.addColorStop(1, "black");
                     // ctx.fillStyle = gradient;
-                    // ctx.fillStyle = 'rgba(35,35,34,0)';
-                    ctx.fillStyle = 'rgb(0,0,0)';
+                    ctx.fillStyle = 'transparent';
+                    // ctx.fillStyle = 'rgb(0,0,0)';
                     ctx.fillRect(0, 0, 100, 100);
                     //Hours
                     ctx.beginPath();
@@ -272,7 +272,7 @@
   .title{
     color: #fff;
     position: absolute;
-    left: 8%;
+    left: 15%;
     z-index: 1;
     font-size: 20px;
   }
@@ -294,8 +294,8 @@
 
   .title-datetime{
     position: absolute;
-    right: 0;
-    width: 15%;
+    right: 2%;
+    width: 20%;
     height: 100%;
   }
 

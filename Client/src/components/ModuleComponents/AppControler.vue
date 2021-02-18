@@ -318,9 +318,9 @@
 <style scoped>
   #kg_control{
     position: absolute;
-    width: 17%;
+    width: 20%;
     height: 60%;
-    top: 26.5%;
+    top: 34.5%;
     /*color: #646464;*/
     /*background-color: #fff;*/
     z-index: 1;
