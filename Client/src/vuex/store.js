@@ -10,7 +10,8 @@ const store = new Vuex.Store({
   // 定义状态
   state: {
     relations:[],
-    cards_data:[]
+    cards_data:[],
+    modelSetting:[]
   },
   mutations: mutation,
   actions: action,

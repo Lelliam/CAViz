@@ -14,4 +14,8 @@ export default class DataManager {
   static get_profiles() {
     return axios.get('profiles');
   }
+
+  static get_major() {
+    return axios.get('major');
+  }
 }

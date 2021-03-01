@@ -38,4 +38,14 @@ router.get('/profiles', function(req, res, next) {
     });
 });
 
+router.get('/major', function(req, res, next) {
+    fs.readFile(path.join(__dirname, "../public/dataset/major_data.json"), "utf-8", function(err, data) {
+        if (err) {
+            res.send("文件读取失败");
+        } else {
+            res.send(data);
+        }
+    });
+});
+
 module.exports = router;

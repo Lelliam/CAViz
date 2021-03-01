@@ -1,0 +1,802 @@
+[
+  {
+    "card_id": 1,
+    "mor_level": 66.1,
+    "aca_level": 80.2,
+    "hea_level": 84.7,
+    "art_level": 69,
+    "sol_level": 80.2
+  },
+  {
+    "card_id": 2,
+    "mor_level": 60.5,
+    "aca_level": 93.2,
+    "hea_level": 81.8,
+    "art_level": 80.8,
+    "sol_level": 77
+  },
+  {
+    "card_id": 3,
+    "mor_level": 63.9,
+    "aca_level": 76.8,
+    "hea_level": 74.5,
+    "art_level": 67.4,
+    "sol_level": 74.9
+  },
+  {
+    "card_id": 4,
+    "mor_level": 86.3,
+    "aca_level": 90.6,
+    "hea_level": 68.7,
+    "art_level": 78.2,
+    "sol_level": 84.1
+  },
+  {
+    "card_id": 5,
+    "mor_level": 63.5,
+    "aca_level": 80.4,
+    "hea_level": 78.4,
+    "art_level": 66.6,
+    "sol_level": 79.5
+  },
+  {
+    "card_id": 6,
+    "mor_level": 76.6,
+    "aca_level": 91.4,
+    "hea_level": 85.3,
+    "art_level": 81.9,
+    "sol_level": 76.7
+  },
+  {
+    "card_id": 7,
+    "mor_level": 65.8,
+    "aca_level": 89.4,
+    "hea_level": 85.2,
+    "art_level": 79.9,
+    "sol_level": 77.1
+  },
+  {
+    "card_id": 8,
+    "mor_level": 63.3,
+    "aca_level": 84.2,
+    "hea_level": 61.2,
+    "art_level": 75.4,
+    "sol_level": 79.8
+  },
+  {
+    "card_id": 9,
+    "mor_level": 91.2,
+    "aca_level": 81.6,
+    "hea_level": 76.9,
+    "art_level": 71.8,
+    "sol_level": 84.9
+  },
+  {
+    "card_id": 10,
+    "mor_level": 66.2,
+    "aca_level": 87,
+    "hea_level": 75.4,
+    "art_level": 70.4,
+    "sol_level": 82.9
+  },
+  {
+    "card_id": 11,
+    "mor_level": 63.1,
+    "aca_level": 81.6,
+    "hea_level": 71.5,
+    "art_level": 73.3,
+    "sol_level": 68.5
+  },
+  {
+    "card_id": 12,
+    "mor_level": 74.2,
+    "aca_level": 89.6,
+    "hea_level": 84.9,
+    "art_level": 79.3,
+    "sol_level": 78.6
+  },
+  {
+    "card_id": 13,
+    "mor_level": 74.8,
+    "aca_level": 91.6,
+    "hea_level": 81.9,
+    "art_level": 82.8,
+    "sol_level": 81.1
+  },
+  {
+    "card_id": 14,
+    "mor_level": 63.1,
+    "aca_level": 77.8,
+    "hea_level": 51.8,
+    "art_level": 63.2,
+    "sol_level": 71.7
+  },
+  {
+    "card_id": 15,
+    "mor_level": 68.5,
+    "aca_level": 77.2,
+    "hea_level": 73.4,
+    "art_level": 69.6,
+    "sol_level": 81.1
+  },
+  {
+    "card_id": 16,
+    "mor_level": 64,
+    "aca_level": 84.4,
+    "hea_level": 83.5,
+    "art_level": 68.7,
+    "sol_level": 82.5
+  },
+  {
+    "card_id": 17,
+    "mor_level": 83.1,
+    "aca_level": 93.6,
+    "hea_level": 76.9,
+    "art_level": 79.5,
+    "sol_level": 75.7
+  },
+  {
+    "card_id": 18,
+    "mor_level": 68,
+    "aca_level": 90,
+    "hea_level": 72.3,
+    "art_level": 85.5,
+    "sol_level": 79.3
+  },
+  {
+    "card_id": 19,
+    "mor_level": 62.2,
+    "aca_level": 87,
+    "hea_level": 79.8,
+    "art_level": 74.4,
+    "sol_level": 74.4
+  },
+  {
+    "card_id": 20,
+    "mor_level": 87.1,
+    "aca_level": 87.4,
+    "hea_level": 69,
+    "art_level": 75,
+    "sol_level": 84.2
+  },
+  {
+    "card_id": 21,
+    "mor_level": 79.3,
+    "aca_level": 83.8,
+    "hea_level": 64.2,
+    "art_level": 73.8,
+    "sol_level": 81.7
+  },
+  {
+    "card_id": 22,
+    "mor_level": 43.3,
+    "aca_level": 79.2,
+    "hea_level": 0,
+    "art_level": 65.1,
+    "sol_level": 59.8
+  },
+  {
+    "card_id": 23,
+    "mor_level": 73.5,
+    "aca_level": 80,
+    "hea_level": 80.1,
+    "art_level": 66.1,
+    "sol_level": 84.6
+  },
+  {
+    "card_id": 24,
+    "mor_level": 62,
+    "aca_level": 90.2,
+    "hea_level": 77.9,
+    "art_level": 81.2,
+    "sol_level": 75
+  },
+  {
+    "card_id": 25,
+    "mor_level": 69.4,
+    "aca_level": 91.2,
+    "hea_level": 78,
+    "art_level": 78.3,
+    "sol_level": 84.8
+  },
+  {
+    "card_id": 26,
+    "mor_level": 63,
+    "aca_level": 75.2,
+    "hea_level": 82,
+    "art_level": 62.5,
+    "sol_level": 81.5
+  },
+  {
+    "card_id": 27,
+    "mor_level": 63.1,
+    "aca_level": 84.4,
+    "hea_level": 65.5,
+    "art_level": 71,
+    "sol_level": 78.3
+  },
+  {
+    "card_id": 28,
+    "mor_level": 68.1,
+    "aca_level": 80.2,
+    "hea_level": 86.1,
+    "art_level": 68.3,
+    "sol_level": 86.2
+  },
+  {
+    "card_id": 29,
+    "mor_level": 64.6,
+    "aca_level": 85.6,
+    "hea_level": 66.6,
+    "art_level": 70.6,
+    "sol_level": 77.9
+  },
+  {
+    "card_id": 30,
+    "mor_level": 67.1,
+    "aca_level": 82.2,
+    "hea_level": 0,
+    "art_level": 67.7,
+    "sol_level": 84.2
+  },
+  {
+    "card_id": 31,
+    "mor_level": 65.6,
+    "aca_level": 76.8,
+    "hea_level": 63,
+    "art_level": 69.8,
+    "sol_level": 80.2
+  },
+  {
+    "card_id": 32,
+    "mor_level": 52,
+    "aca_level": 90,
+    "hea_level": 77.3,
+    "art_level": 77.2,
+    "sol_level": 58.3
+  },
+  {
+    "card_id": 33,
+    "mor_level": 80,
+    "aca_level": 85.2,
+    "hea_level": 77,
+    "art_level": 76.2,
+    "sol_level": 83
+  },
+  {
+    "card_id": 34,
+    "mor_level": 71.8,
+    "aca_level": 91.6,
+    "hea_level": 79.1,
+    "art_level": 93.9,
+    "sol_level": 77.1
+  },
+  {
+    "card_id": 35,
+    "mor_level": 71.5,
+    "aca_level": 82.6,
+    "hea_level": 61.9,
+    "art_level": 75.7,
+    "sol_level": 80.1
+  },
+  {
+    "card_id": 36,
+    "mor_level": 79.1,
+    "aca_level": 89.8,
+    "hea_level": 75.8,
+    "art_level": 79.3,
+    "sol_level": 81.2
+  },
+  {
+    "card_id": 37,
+    "mor_level": 70,
+    "aca_level": 80.8,
+    "hea_level": 73.5,
+    "art_level": 76.1,
+    "sol_level": 82.5
+  },
+  {
+    "card_id": 38,
+    "mor_level": 67.5,
+    "aca_level": 77.6,
+    "hea_level": 73,
+    "art_level": 70.1,
+    "sol_level": 79.5
+  },
+  {
+    "card_id": 39,
+    "mor_level": 68.5,
+    "aca_level": 76.8,
+    "hea_level": 82.5,
+    "art_level": 64.7,
+    "sol_level": 81
+  },
+  {
+    "card_id": 40,
+    "mor_level": 72.1,
+    "aca_level": 84.8,
+    "hea_level": 81,
+    "art_level": 87.6,
+    "sol_level": 94.2
+  },
+  {
+    "card_id": 41,
+    "mor_level": 63.5,
+    "aca_level": 74,
+    "hea_level": 70.5,
+    "art_level": 65,
+    "sol_level": 87.3
+  },
+  {
+    "card_id": 42,
+    "mor_level": 65.5,
+    "aca_level": 92.8,
+    "hea_level": 73.8,
+    "art_level": 80.2,
+    "sol_level": 74
+  },
+  {
+    "card_id": 43,
+    "mor_level": 61.1,
+    "aca_level": 82.2,
+    "hea_level": 20.2,
+    "art_level": 72,
+    "sol_level": 73.5
+  },
+  {
+    "card_id": 44,
+    "mor_level": 66.1,
+    "aca_level": 84.2,
+    "hea_level": 77.6,
+    "art_level": 73.8,
+    "sol_level": 83.2
+  },
+  {
+    "card_id": 45,
+    "mor_level": 71,
+    "aca_level": 87.8,
+    "hea_level": 83.9,
+    "art_level": 74.6,
+    "sol_level": 76
+  },
+  {
+    "card_id": 46,
+    "mor_level": 72.9,
+    "aca_level": 77.6,
+    "hea_level": 78.2,
+    "art_level": 68.6,
+    "sol_level": 81.8
+  },
+  {
+    "card_id": 47,
+    "mor_level": 63.3,
+    "aca_level": 80.2,
+    "hea_level": 71.4,
+    "art_level": 68.8,
+    "sol_level": 74.1
+  },
+  {
+    "card_id": 48,
+    "mor_level": 69.7,
+    "aca_level": 90,
+    "hea_level": 82.4,
+    "art_level": 80.3,
+    "sol_level": 85.9
+  },
+  {
+    "card_id": 49,
+    "mor_level": 63.2,
+    "aca_level": 84.8,
+    "hea_level": 75.6,
+    "art_level": 74.7,
+    "sol_level": 79.4
+  },
+  {
+    "card_id": 50,
+    "mor_level": 71.4,
+    "aca_level": 93.4,
+    "hea_level": 76.8,
+    "art_level": 78.9,
+    "sol_level": 76.8
+  },
+  {
+    "card_id": 51,
+    "mor_level": 66,
+    "aca_level": 87.4,
+    "hea_level": 67.8,
+    "art_level": 74.2,
+    "sol_level": 77.5
+  },
+  {
+    "card_id": 52,
+    "mor_level": 60.4,
+    "aca_level": 74,
+    "hea_level": 77.7,
+    "art_level": 59.8,
+    "sol_level": 73.5
+  },
+  {
+    "card_id": 53,
+    "mor_level": 67,
+    "aca_level": 75.8,
+    "hea_level": 65.2,
+    "art_level": 61.5,
+    "sol_level": 77.5
+  },
+  {
+    "card_id": 54,
+    "mor_level": 65.2,
+    "aca_level": 88.4,
+    "hea_level": 61.5,
+    "art_level": 73.8,
+    "sol_level": 83.9
+  },
+  {
+    "card_id": 55,
+    "mor_level": 64.7,
+    "aca_level": 77.8,
+    "hea_level": 84.8,
+    "art_level": 70.6,
+    "sol_level": 77.4
+  },
+  {
+    "card_id": 56,
+    "mor_level": 43.1,
+    "aca_level": 77.4,
+    "hea_level": 79.1,
+    "art_level": 66.6,
+    "sol_level": 51.4
+  },
+  {
+    "card_id": 57,
+    "mor_level": 64.2,
+    "aca_level": 73,
+    "hea_level": 83.9,
+    "art_level": 57.8,
+    "sol_level": 81.7
+  },
+  {
+    "card_id": 58,
+    "mor_level": 61,
+    "aca_level": 92.4,
+    "hea_level": 70.5,
+    "art_level": 79,
+    "sol_level": 78
+  },
+  {
+    "card_id": 59,
+    "mor_level": 79.6,
+    "aca_level": 92.2,
+    "hea_level": 68.4,
+    "art_level": 81.5,
+    "sol_level": 79.2
+  },
+  {
+    "card_id": 60,
+    "mor_level": 57.7,
+    "aca_level": 67.8,
+    "hea_level": 81.7,
+    "art_level": 54.7,
+    "sol_level": 67.3
+  },
+  {
+    "card_id": 61,
+    "mor_level": 63.6,
+    "aca_level": 74.6,
+    "hea_level": 74.7,
+    "art_level": 62,
+    "sol_level": 78.7
+  },
+  {
+    "card_id": 62,
+    "mor_level": 64.9,
+    "aca_level": 80.6,
+    "hea_level": 75.4,
+    "art_level": 68.8,
+    "sol_level": 80.4
+  },
+  {
+    "card_id": 63,
+    "mor_level": 56.1,
+    "aca_level": 77.2,
+    "hea_level": 82.9,
+    "art_level": 66.1,
+    "sol_level": 68.5
+  },
+  {
+    "card_id": 64,
+    "mor_level": 62.6,
+    "aca_level": 73.8,
+    "hea_level": 75.5,
+    "art_level": 59.8,
+    "sol_level": 83
+  },
+  {
+    "card_id": 65,
+    "mor_level": 62.7,
+    "aca_level": 76.8,
+    "hea_level": 83.6,
+    "art_level": 67.6,
+    "sol_level": 74.2
+  },
+  {
+    "card_id": 66,
+    "mor_level": 82.6,
+    "aca_level": 83.4,
+    "hea_level": 75,
+    "art_level": 75,
+    "sol_level": 79.2
+  },
+  {
+    "card_id": 67,
+    "mor_level": 58.7,
+    "aca_level": 74,
+    "hea_level": 76,
+    "art_level": 64.4,
+    "sol_level": 75.5
+  },
+  {
+    "card_id": 68,
+    "mor_level": 0,
+    "aca_level": 0,
+    "hea_level": 0,
+    "art_level": 0,
+    "sol_level": 0
+  },
+  {
+    "card_id": 69,
+    "mor_level": 61.5,
+    "aca_level": 79,
+    "hea_level": 65.8,
+    "art_level": 66.6,
+    "sol_level": 77
+  },
+  {
+    "card_id": 70,
+    "mor_level": 84.6,
+    "aca_level": 86.4,
+    "hea_level": 65.2,
+    "art_level": 76.7,
+    "sol_level": 84.2
+  },
+  {
+    "card_id": 71,
+    "mor_level": 64.6,
+    "aca_level": 79.4,
+    "hea_level": 63,
+    "art_level": 66.3,
+    "sol_level": 83.2
+  },
+  {
+    "card_id": 72,
+    "mor_level": 70.7,
+    "aca_level": 91.6,
+    "hea_level": 81.8,
+    "art_level": 76.5,
+    "sol_level": 77.4
+  },
+  {
+    "card_id": 73,
+    "mor_level": 72.1,
+    "aca_level": 82.6,
+    "hea_level": 62.9,
+    "art_level": 67.3,
+    "sol_level": 85.2
+  },
+  {
+    "card_id": 74,
+    "mor_level": 60,
+    "aca_level": 78.4,
+    "hea_level": 68.4,
+    "art_level": 64.6,
+    "sol_level": 77
+  },
+  {
+    "card_id": 75,
+    "mor_level": 61.1,
+    "aca_level": 74.8,
+    "hea_level": 65.7,
+    "art_level": 62.9,
+    "sol_level": 74
+  },
+  {
+    "card_id": 76,
+    "mor_level": 61.9,
+    "aca_level": 72.8,
+    "hea_level": 75.2,
+    "art_level": 61.7,
+    "sol_level": 74.5
+  },
+  {
+    "card_id": 77,
+    "mor_level": 72.1,
+    "aca_level": 83.8,
+    "hea_level": 81,
+    "art_level": 71.3,
+    "sol_level": 81.2
+  },
+  {
+    "card_id": 78,
+    "mor_level": 72.6,
+    "aca_level": 89.8,
+    "hea_level": 68.7,
+    "art_level": 77.9,
+    "sol_level": 81.2
+  },
+  {
+    "card_id": 79,
+    "mor_level": 56.1,
+    "aca_level": 83.4,
+    "hea_level": 77.4,
+    "art_level": 71.7,
+    "sol_level": 61
+  },
+  {
+    "card_id": 80,
+    "mor_level": 68.4,
+    "aca_level": 77.2,
+    "hea_level": 81.1,
+    "art_level": 71.3,
+    "sol_level": 78.8
+  },
+  {
+    "card_id": 81,
+    "mor_level": 86.4,
+    "aca_level": 88.4,
+    "hea_level": 75.9,
+    "art_level": 76.6,
+    "sol_level": 79.8
+  },
+  {
+    "card_id": 82,
+    "mor_level": 73,
+    "aca_level": 73.6,
+    "hea_level": 77.4,
+    "art_level": 65.2,
+    "sol_level": 79.9
+  },
+  {
+    "card_id": 83,
+    "mor_level": 77.4,
+    "aca_level": 92.2,
+    "hea_level": 76.6,
+    "art_level": 83,
+    "sol_level": 82.9
+  },
+  {
+    "card_id": 84,
+    "mor_level": 68.1,
+    "aca_level": 81.4,
+    "hea_level": 81.8,
+    "art_level": 66.1,
+    "sol_level": 88.2
+  },
+  {
+    "card_id": 85,
+    "mor_level": 61.2,
+    "aca_level": 81,
+    "hea_level": 76.2,
+    "art_level": 64.9,
+    "sol_level": 76.6
+  },
+  {
+    "card_id": 86,
+    "mor_level": 73.3,
+    "aca_level": 83.6,
+    "hea_level": 69.5,
+    "art_level": 74.6,
+    "sol_level": 72.9
+  },
+  {
+    "card_id": 87,
+    "mor_level": 99.5,
+    "aca_level": 77.4,
+    "hea_level": 82.2,
+    "art_level": 68.6,
+    "sol_level": 90.5
+  },
+  {
+    "card_id": 88,
+    "mor_level": 60,
+    "aca_level": 83.6,
+    "hea_level": 72.5,
+    "art_level": 70.3,
+    "sol_level": 76
+  },
+  {
+    "card_id": 89,
+    "mor_level": 63.4,
+    "aca_level": 71.8,
+    "hea_level": 62.8,
+    "art_level": 60.5,
+    "sol_level": 78.8
+  },
+  {
+    "card_id": 90,
+    "mor_level": 64.1,
+    "aca_level": 80.6,
+    "hea_level": 67.5,
+    "art_level": 67,
+    "sol_level": 82.2
+  },
+  {
+    "card_id": 91,
+    "mor_level": 73.2,
+    "aca_level": 78,
+    "hea_level": 74.8,
+    "art_level": 71.7,
+    "sol_level": 86.9
+  },
+  {
+    "card_id": 92,
+    "mor_level": 64,
+    "aca_level": 85.6,
+    "hea_level": 83.3,
+    "art_level": 72.4,
+    "sol_level": 84.5
+  },
+  {
+    "card_id": 93,
+    "mor_level": 84.4,
+    "aca_level": 83.6,
+    "hea_level": 67.1,
+    "art_level": 72.2,
+    "sol_level": 85.8
+  },
+  {
+    "card_id": 94,
+    "mor_level": 67.4,
+    "aca_level": 79.6,
+    "hea_level": 68.7,
+    "art_level": 68.5,
+    "sol_level": 79.8
+  },
+  {
+    "card_id": 95,
+    "mor_level": 65.1,
+    "aca_level": 73.6,
+    "hea_level": 78.1,
+    "art_level": 64.3,
+    "sol_level": 76.1
+  },
+  {
+    "card_id": 96,
+    "mor_level": 73.8,
+    "aca_level": 79.8,
+    "hea_level": 83.2,
+    "art_level": 77.4,
+    "sol_level": 89.1
+  },
+  {
+    "card_id": 97,
+    "mor_level": 71.1,
+    "aca_level": 90.6,
+    "hea_level": 77.2,
+    "art_level": 82.4,
+    "sol_level": 80.2
+  },
+  {
+    "card_id": 98,
+    "mor_level": 62,
+    "aca_level": 87.2,
+    "hea_level": 79,
+    "art_level": 78.5,
+    "sol_level": 75
+  },
+  {
+    "card_id": 99,
+    "mor_level": 75.2,
+    "aca_level": 92.6,
+    "hea_level": 74.3,
+    "art_level": 83,
+    "sol_level": 81.9
+  },
+  {
+    "card_id": 100,
+    "mor_level": 69.2,
+    "aca_level": 87.8,
+    "hea_level": 82.2,
+    "art_level": 72.6,
+    "sol_level": 81.4
+  }
+]

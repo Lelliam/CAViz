@@ -114,7 +114,7 @@
                 this.datetime = new Date().toDateString()
                 this.datetime_time = new Date().toTimeString().replace('(China Standard Time)','').replace('(中国标准时间)','')
             },1000)
-            this.set_dateTime()
+            // this.set_dateTime()
         },
         methods: {
             set_dateTime(){
@@ -272,7 +272,7 @@
   .title{
     color: #fff;
     position: absolute;
-    left: 15%;
+    left: 13%;
     z-index: 1;
     font-size: 20px;
   }
@@ -283,7 +283,7 @@
 
   .title .title-bg-img{
     position: absolute;
-    width: 550px;
+    width: 100%;
     transform: translateY(-10px);
     height: 16px;
     z-index: 2;

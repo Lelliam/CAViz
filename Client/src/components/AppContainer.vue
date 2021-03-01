@@ -3,7 +3,7 @@
       <div id="module-container">
         <AppModelSetting></AppModelSetting>
         <AppControler></AppControler>
-<!--        <AppKG></AppKG>-->
+        <AppKG></AppKG>
         <AppCards></AppCards>
       </div>
   </div>

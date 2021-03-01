@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import AppLayout from './components/AppLayout';
+  import AppLayout from './components/AppLayout';
   export default {
-      name: 'App',
-      components:{
-          AppLayout
+    name: 'App',
+    components:{
+      AppLayout
+    }
   }
-}
 </script>
 
 <style>
@@ -23,7 +23,7 @@ import AppLayout from './components/AppLayout';
     padding: 0;
     background-color: rgb(35,35,34);
     color: #fff;
-    /*overflow: hidden;*/
+    overflow: hidden;
     /*-moz-user-select:none;!*火狐*!*/
     /*-webkit-user-select:none;!*webkit浏览器*!*/
     /*-ms-user-select:none;!*IE10*!*/
@@ -34,6 +34,7 @@ import AppLayout from './components/AppLayout';
   ::-webkit-scrollbar {
     width: 4px;
     height: 4px;
+    display: none;
   }
   ::-webkit-scrollbar-track {
     background: #f6f6f6;
@@ -97,8 +98,8 @@ import AppLayout from './components/AppLayout';
   }
 
   .ivu-card{
-    background: rgba(60,60,60,0.2);
-    filter: blur(10);
+    background: rgba(60,60,60,0.5);
+    filter: blur(20);
   }
 
   .ivu-card-bordered {
@@ -121,8 +122,35 @@ import AppLayout from './components/AppLayout';
     padding: 0;
   }
 
+
+  .ivu-collapse {
+    background-color: transparent;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+  }
+
+  .ivu-collapse>.ivu-collapse-item>.ivu-collapse-header {
+    color: #fff;
+  }
+
+  .ivu-collapse-content {
+    color: #fff;
+    padding: 0 16px;
+    background-color: transparent;
+  }
+
+  .ivu-divider-horizontal {
+    margin: 4px 0;
+    clear: both;
+  }
+
   .ivu-divider-horizontal.ivu-divider-with-text-center, .ivu-divider-horizontal.ivu-divider-with-text-left, .ivu-divider-horizontal.ivu-divider-with-text-right {
     color: #fff;
+  }
+
+  .ivu-progress {
+    display: block;
   }
 
   .ivu-tag {
@@ -136,13 +164,14 @@ import AppLayout from './components/AppLayout';
   }
 
   .ivu-cell:hover {
-    background: rgba(221, 120, 21, 0.3);
+    /*background: rgba(221, 120, 21, 0.3);*/
+    background: transparent;
   }
 
   .ivu-cell-main {
-       display: block;
-       vertical-align: middle;
-     }
+    display: block;
+    vertical-align: middle;
+  }
 
   .ivu-drawer-content{
     height: 94%;

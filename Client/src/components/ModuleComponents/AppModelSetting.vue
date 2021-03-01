@@ -2,58 +2,59 @@
   <div id="model-setting">
     <Card :style="{minHeight: '100%',minWidth: '100%'}">
       <p slot="title"><Tag color="warning"></Tag>模型设置</p>
-<!--      <CellGroup>-->
-<!--        <Cell>-->
-          <div style="height: 100px;width: 100%;">
+      <!--      <CellGroup>-->
+      <!--        <Cell>-->
+      <div style="height: 100px;width: 100%;">
 
-            <!-- 左侧调节数轴起 -->
-            <div style="height: 100%;width: 12%;float: left;">
-              <div id="lineDiv" class="lineDiv">
-                <div id="minDiv" class="minDiv" style="background: #4EDAAE;">
-                </div>
-              </div>
+        <!-- 左侧调节数轴起 -->
+        <div style="height: 100%;width: 12%;float: left;">
+          <div id="lineDiv" class="lineDiv">
+            <div id="minDiv" class="minDiv" style="background: #4EDAAE;">
             </div>
-
-            <div style="height: 100%;width: 12%;float: left;">
-              <div id="lineDiv1" class="lineDiv">
-                <div id="minDiv1" class="minDiv" style="background: #D84646;">
-                </div>
-              </div>
-            </div>
-
-            <div style="height: 100%;width: 12%;float: left;">
-              <div id="lineDiv2" class="lineDiv">
-                <div id="minDiv2" class="minDiv" style="background: #FDC444;">
-                </div>
-              </div>
-            </div>
-
-            <div style="height: 100%;width: 12%;float: left;">
-              <div id="lineDiv3" class="lineDiv">
-                <div id="minDiv3" class="minDiv" style="background: #188AE0;">
-                </div>
-              </div>
-            </div>
-
-            <div style="height: 100%;width: 12%;float: left;">
-              <div id="lineDiv4" class="lineDiv">
-                <div id="minDiv4" class="minDiv" style="background: #FB8A64;">
-                </div>
-              </div>
-            </div>
-            <!-- 左侧调节数轴终 -->
-
-            <div style="height: 100%;width: 40%;float: left;" id="demo"></div>
-            <!-- 右侧饼图 -->
           </div>
-<!--        </Cell>-->
-<!--      </CellGroup>-->
+        </div>
+
+        <div style="height: 100%;width: 12%;float: left;">
+          <div id="lineDiv1" class="lineDiv">
+            <div id="minDiv1" class="minDiv" style="background: #D84646;">
+            </div>
+          </div>
+        </div>
+
+        <div style="height: 100%;width: 12%;float: left;">
+          <div id="lineDiv2" class="lineDiv">
+            <div id="minDiv2" class="minDiv" style="background: #FDC444;">
+            </div>
+          </div>
+        </div>
+
+        <div style="height: 100%;width: 12%;float: left;">
+          <div id="lineDiv3" class="lineDiv">
+            <div id="minDiv3" class="minDiv" style="background: #188AE0;">
+            </div>
+          </div>
+        </div>
+
+        <div style="height: 100%;width: 12%;float: left;">
+          <div id="lineDiv4" class="lineDiv">
+            <div id="minDiv4" class="minDiv" style="background: #FB8A64;">
+            </div>
+          </div>
+        </div>
+        <!-- 左侧调节数轴终 -->
+
+        <div style="height: 100%;width: 40%;float: left;" id="demo"></div>
+        <!-- 右侧饼图 -->
+      </div>
+      <!--        </Cell>-->
+      <!--      </CellGroup>-->
     </Card>
   </div>
 </template>
 
 <script>
   import * as echarts4 from '../../../static/echarts4.js'
+  import * as d3 from 'd3'
   export default {
     name: "AppModelSetting",
     mounted() {
@@ -83,7 +84,7 @@
               var y = e.clientY;
             }
             var lineDiv_bottom = getPosition(lineDiv).bottom;
-            var minDiv_bottom = y - 30;
+            var minDiv_bottom = y - 190;
             // console.log(minDiv_bottom)
             if (minDiv_bottom >= lineDiv.offsetHeight - 8) {
               minDiv_bottom = lineDiv.offsetHeight - 8;
@@ -92,7 +93,7 @@
               minDiv_bottom = 0;
             }
             mouseauto.style.top = minDiv_bottom + "px";
-            console.log(mouseauto.offsetTop)
+            // console.log(mouseauto.offsetTop)
             Count();
           }
         }
@@ -113,6 +114,8 @@
           n.push(Math.floor(((count_3 / (count_0 + count_1 + count_2 + count_3 + count_4)) * 100) * 100) / 100);
           n.push(Math.floor(((count_4 / (count_0 + count_1 + count_2 + count_3 + count_4)) * 100) * 100) / 100);
 
+          // console.log(count_0,count_1,count_2,count_3,count_4)
+          this.$store.commit('modelSetting',n.map(s=>parseFloat((s/d3.sum(n)).toFixed(2))));
           this.drawStudent(n);
         }
 
@@ -275,7 +278,7 @@
     width: 20%;
     height: 15%;
     left: 2%;
-    top: 15%;
+    top: 15.5%;
     z-index: 1;
   }
   .lineDiv {
